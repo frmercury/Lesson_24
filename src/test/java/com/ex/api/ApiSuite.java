@@ -35,6 +35,5 @@ public class ApiSuite extends BaseTest {
        System.out.println("id = " + jsonObject.get("id"));
        assertThat(jsonObject.get("name")).asString().isEqualTo("\"island22\"");
        assertThat(jsonObject.get("email")).asString().isEqualTo("\"dharma23@GMAIL.COM\"");
-
     }
 }
